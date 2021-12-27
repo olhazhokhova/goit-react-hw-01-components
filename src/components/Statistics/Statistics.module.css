@@ -1,0 +1,44 @@
+.statistics {
+  background-color: #fff;
+  width: 270px;
+  margin: 30px auto;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0;
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding: 7px 0;
+}
+
+.item:nth-child(3n + 1) {
+  background-color: #50c4f3;
+}
+
+.item:nth-child(3n + 2) {
+  background-color: #a23df3;
+}
+
+.item:nth-child(3n + 3) {
+  background-color: #e64c66;
+}
+
+.label {
+  font-size: 12px;
+}
